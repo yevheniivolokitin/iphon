@@ -1,0 +1,461 @@
+body{
+    width: 1440px;
+}
+.new {
+    background-color: #000000;
+    height: 913px;
+}
+
+.full {
+    height: 1876px;
+}
+
+.new>h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 490px;
+    color: #262525;
+}
+
+.new>h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 62px;
+}
+
+.new>h2 {
+    padding-top: 111px;
+    padding-left: 289px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 171px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.new>h4 {
+    padding-top: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: #262525;
+}
+
+.new>h5 {
+    padding-top: 60px;
+    padding-left: 650px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #262525;
+}
+
+.group {
+    padding-top: 5px;
+    padding-left: 706px;
+}
+
+.iphone {
+    padding-left: 85px;
+}
+
+.phone>h2 {
+    padding-left: 450px;
+    z-index: 1;
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.phone>h3 {
+    padding-top: 160px;
+    padding-left: 350px;
+    z-index: 1;
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 57px;
+    color: #F5F5F5;
+}
+
+.phone>h4 {
+    padding-top: 230px;
+    padding-left: 288px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #7A7A7A;
+    position: absolute;
+    z-index: 1;
+}
+
+.select>h2 {
+    padding-top: 80px;
+    padding-left: 505px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #292929;
+}
+
+.sales {
+    padding-top: 60px;
+    padding-left: 80px;
+    width: 380px;
+}
+
+.button>a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+.tochka {
+    padding-left: 715px;
+    padding-top: 30px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+    width: 260px;
+    height: 36px;
+    background: #FFFFFF;
+    border-radius: 30px;
+
+}
+
+.buy {
+    padding-top: 30px;
+    padding-left: 30px;
+    height: 170px;
+    background-color: #000000;
+    border-radius: 0px 0px 32px 32px;
+}
+
+.h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #F1F8FF;
+}
+
+.fone {
+    z-index: 0;
+    position: absolute;
+    left: 90px;
+    top: 1722px;
+
+}
+
+.phone {
+    height: 567px;
+    background-color: #1D1C1C;
+}
+
+.salese {
+    display: flex;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 120px;
+    gap: 10px;
+    position: absolute;
+    width: 1200px;
+    height: 676px;
+
+    background-image: url(../introduction.png);
+}
+
+.video>h2 {
+    padding-left: 340px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 38px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.video>h3 {
+    padding-top: 30px;
+    padding-left: 380px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #F5F5F5;
+}
+
+.videoshow {
+    padding-top: 50px;
+    padding-left: 170px;
+    width: 900px;
+}
+
+.email {
+    padding-top: 1040px;
+    padding-left: 140px;
+}
+
+.email>img {
+    text-align: left;
+    position: absolute;
+}
+
+.findemail {
+    position: absolute;
+    padding-left: 840px;
+    padding-top: 200px;
+    display: flex;
+}
+
+.obv>h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #545454;
+}
+
+.obv>button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    width: 151px;
+    height: 45px;
+    background: #262525;
+    border-radius: 32px;
+    color: white;
+
+}
+
+.obv {
+    display: flex;
+    border: 1.5px solid #C8C8C8;
+    border-radius: 32px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 8px 8px 24px;
+    gap: 10px;
+    width: 319px;
+    height: 45px;
+}
+
+.email>h2 {
+    padding-top: 90px;
+    padding-left: 840px;
+    position: absolute;
+    text-align: right;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #727272;
+}
+
+footer {
+    margin-top: 450px;
+    height: 350px;
+    background: #1D1C1C;
+}
+
+.apli {
+    padding-left: 105px;
+    padding-top: 70px;
+    position: absolute;
+}
+
+.company {
+    position: absolute;
+    padding-left: 800px;
+    padding-top: 70px;
+}
+
+.company>h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    font-feature-settings: 'liga' off;
+    color: #EFEEEF;
+    padding-bottom: 30px;
+}
+
+.company>h3 {
+    padding-bottom: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #C8C8C8;
+}
+
+.support {
+    position: absolute;
+    padding-left: 950px;
+    padding-top: 70px;
+}
+
+.support>h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    font-feature-settings: 'liga' off;
+    color: #EFEEEF;
+    padding-bottom: 30px;
+}
+
+.support>h3 {
+    padding-bottom: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #C8C8C8;
+}
+
+.apli>h3 {
+    padding-bottom: 40px;
+    padding-top: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #C8C8C8;
+}
+
+.apli>h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.adres {
+    position: absolute;
+    padding-left: 1150px;
+    padding-top: 70px;
+}
+
+.adres>h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    font-feature-settings: 'liga' off;
+    color: #EFEEEF;
+    padding-bottom: 30px;
+}
+
+.adres>h3 {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 220px;
+    left: 0px;
+    top: 54px;
+    background: #545454;
+    border-radius: 32px;
+    color: #C8C8C8;
+}
